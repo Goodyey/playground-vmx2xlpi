@@ -7,8 +7,12 @@ This C++ template lets you get started quickly with a simple one-page playground
 
 using namespace std;
 
+int zmienna;
+
 int main() 
 {
+    cin >> zmienna;
+    cout << zmienna;
     cout << "Hello, World!";
     return 0;
 }
